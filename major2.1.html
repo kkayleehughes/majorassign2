@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="major2.1.css">
+    </head>
+    <hr></hr>
+    <header>
+        <nav class="navbar">
+            <a href="#section1" class="btn">Home</a>
+            <a href="#section2" class="btn">About</a>
+            <a href="#section3" class="btn">Artist</a>
+        </nav>
+    </header>
+    <hr></hr>
+    <body>
+
+        <div style="text-align:center">
+          <h2>OLIVER JEFFERS</h2>
+        </div>
+                <div class="row">
+          <div class="column">
+            <img src="file:///Users/kayleehughes/Desktop/DIG3174C/Major%20Assignment%202/IMAGES/Jeffers_NCCIL-2018.3.29-01_o2-1480x1049-1024x726.jpg" alt="THE GREAT PAPER CAPER" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="file:///Users/kayleehughes/Desktop/DIG3174C/Major%20Assignment%202/IMAGES/Jeffers_NCCIL-2018.03.30-15_o2-1480x1031-1024x713.jpg" alt="A, AN ASTRONAUT" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="file:///Users/kayleehughes/Desktop/DIG3174C/Major%20Assignment%202/IMAGES/Jeffers_NCCIL-2018.3.29-19_o2-1480x1208-1024x836.jpg" alt="STUCK" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="file:///Users/kayleehughes/Desktop/DIG3174C/Major%20Assignment%202/IMAGES/Jeffers_NCCIL-2018.03.30-21_o2-1480x1018-1024x704.jpg" alt="WORLD OF STORIES, CHILD OF BOOKS" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <hr></hr>
+          <div class="column">
+            <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/5/5/1304585980810/Oliver-Jeffers-014.jpg?width=880&quality=45&auto=format&fit=max&dpr=2&s=5d4506cd218b08dace085e1fbab81e2c" alt="HOW TO CATCH A STAR" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/5/5/1304585973024/Oliver-Jeffers-006.jpg?width=880&quality=45&auto=format&fit=max&dpr=2&s=3e99a7aa041a2ebe40b676d6698d301f" alt="THE WAY BACK HOME" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/5/5/1304585978900/Oliver-Jeffers-012.jpg?width=880&quality=45&auto=format&fit=max&dpr=2&s=0bb98ea6f37f8f806a83bf054b29745e" alt="THE GREAT PAPER CAPER" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/5/5/1304585979827/Oliver-Jeffers-013.jpg?width=880&quality=45&auto=format&fit=max&dpr=2&s=51e6af0d779788be2b66c832a746d629" alt="THE INCREDIBLE BOOK EATING BOY" style="width:100%" onclick="myFunction(this);">
+          </div>
+        </div>
+        
+        <div class="container">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%">
+          <div id="imgtext"></div>
+        </div>
+        
+        <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
+        </body>
+        <body>
+          <section id="#section2"></section>
+            <h3>ABOUT</h3>
+            <h4>
+              Born in Australia and raised in Northern Ireland, 
+              Oliver Jeffers is an award-winning artist, illustrator, and writer. 
+              From figurative painting and installation to illustration and picture-book making, Jeffers’s work takes many forms. 
+              His distinctive paintings have been exhibited in prestigious institutions all over the world. 
+              Jeffers has sold more than 10 million picture books - including "Here We Are," 
+              "The Incredible Book Eating Boy," "This Moose Belongs to Me," and "Once Upon an Alphabet." His wildly popular book, "The Day The Crayons Quit," and its sequel, "The Day The Crayons Came Home," 
+              were both #1 NY Times bestsellers.
+            </h4>
+        </body>
+        </div>
+        <h2>ARTIST</h2>
+        <div class="grid-container">
+          <div class="grid-item" id="#section3">
+            <img src="https://images.squarespace-cdn.com/content/v1/581e4d6ee58c62bd097e5709/1553285848670-0C26W0WOIM8E3P89EUH3/Oliver-Jeffers-Eye-Level-1600x1067.jpg?format=1000w" alt="Oliver Jeffers">
+          </div>
+          <div class="grid-item">
+            <h5>Oliver's illustrated storybooks have captured the hearts of people worldwide and have been rendered in more than 30 different languages.
+             Among his acclaimed titles are How to Catch a Star, Lost and Found, The Way Back Home, Up and Down, The Heart and the Bottle, The Incredible Book Eating Boy, The Great Paper Caper, and The Hueys series. His literary achievements also comprise bestsellers such as Stuck, This Moose Belongs to Me, and The Day the Crayons Quit (#1), co-written by Drew Daywalt.
+             Oliver's most recent work, titled Imaginary Fred, is also highly anticipated.</h5>
+            </div>
+              <div class="grid-item">
+                <h5>In addition to his successful career in the literary world, Oliver is also a devoted father to his young son. Oliver's experiences as a father have also inspired some of his work, including his book Here We Are: Notes for Living on Planet Earth, 
+                which he dedicated to his son. The book is a beautiful meditation on life, 
+                filled with valuable lessons and insights that Oliver hopes will guide his son as he grows up.</h5>
+              </div>
+              <div class="grid-item">
+                <img src="https://i.guim.co.uk/img/media/8dfc8ed606f54daf82b150ca574d213a4340d17b/20_0_2109_2109/master/2109.jpg?width=700&quality=85&auto=format&fit=max&s=4775f1139bb5c924616c954d705ddc5a" alt="Jeffery and his son">
+                </div>
+        </div>
+        
+
+
+</html>
